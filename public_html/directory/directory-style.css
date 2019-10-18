@@ -1,5 +1,13 @@
 body{
-	background-color: black;
+	background-color: lightgray;
+}
+
+h1{ text-align: left;
+	color: lime;
+}
+
+h2{ text-align: left;
+	color: lime;
 }
 
 p{ text-align: left;
