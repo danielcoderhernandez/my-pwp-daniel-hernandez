@@ -32,10 +32,10 @@
 	<p> Technology: His main on person device is his Samsung Note 9 with the latest software. He regularly checks the band's Facebook and Instagram to see if anyone is attempting
 	to request a booking. He also has a HP Windows desktop at home that runs Windows10 where he stores video and songs of the band Spare Change</p>
 
-	<p> Frustrations: Aaron believes that the social-media sites are not fully displaying the bands work and information as well as he would like which is
+	<p> Frustrations: Aaron believes that the social-media sites are not fully displaying the band's work and information as well as he would like which is
 		limiting the amount of bookings the band is getting</p>
 
-	<p> Goals: Aaron is looking to increase bookings for his band by hiring a front-end developer that can better display the bands members and performances.</p>
+	<p> Goals: Aaron is looking to increase bookings for his band by hiring a front-end developer that can better display the band's members and performances.</p>
 	<p> and a page that allows any potential clients to request a booking while linking the band's social-media sites. </p>
 
 	<p> User Story: As an artist looking to increase bookings for my band I am looking for a front-end developer that can make a quality-interactive site that my
