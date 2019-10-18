@@ -8,19 +8,19 @@
 
 <body>
 
-	<h1> Purpose: To Display my Portfolio.</h1>
+<p> <b> Purpose: To Display my Portfolio. </b> </p>
 
-	<h2> Audience: </h2>
+<p> <b> Audience: </b> </p>
 		<p> 1. Clients looking for custom websites </p>
 		<p> 2. Businesses looking to subcontract work </p>
 		<p> 3. Peers looking to collaborate </P>
 
-	<h2> Goal: </h2>
+<p> <b> Goal: </b> </p>
 		<p> 1. To gain freelance work</p>
 		<p> 2. To gain subcontracted work from businesses building websites</p>
 		<p> 3. To network with local, national, and international peers and collaborate on projects</p>
 
-	<h2> Persona: </h2>
+<p> <b> Persona: </b> </p>
 	<p></p>
 	<p> Name, Aaron Lee</p>
 	<p></p>
@@ -37,7 +37,7 @@
 
 	<p> Goals: Aaron is looking to increase bookings for his band by hiring a front-end developer that can better display the band's members and performances.</p>
 	<p> and a page that allows any potential clients to request a booking while linking the band's social-media sites. </p>
-
+	<p> Since he works full time he wants to quickly review a developer's portfolio and contact information </p>
 	<p> User Story: As an artist looking to increase bookings for my band I am looking for a front-end developer that can make a quality-interactive site that my
 	potential clients </p>
 
