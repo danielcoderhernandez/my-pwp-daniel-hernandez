@@ -8,6 +8,6 @@
 
 <body>
 <div class="center">
-	<img src="./pwp-mockup.PNG">
+	<img src="pwp-mockup.PNG">
 </div>
 </body>
