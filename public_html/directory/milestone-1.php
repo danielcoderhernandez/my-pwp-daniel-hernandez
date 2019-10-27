@@ -29,7 +29,7 @@
 	<p></p>
 	<p> Age 31, Race: Native</p>
 	<p></p>
-	<p><b> Attitude and Behaviors:<b/></p>
+	<p><b> Attitude and Behaviors:</b></p>
 	<p>Aaron has a full time job in the day which severely limits the amount of time he can promote his band Spare Change</p>
 	<p>He currently promotes his band over Facebook and Instagram.</p>
 	<p></p>
