@@ -1,17 +1,17 @@
 body{
-	background-color: darkgrey;
+	background-color: lightyellow;
 }
 
 h1{ text-align: left;
-	color: lime;
+	color: black;
 }
 
 h2{ text-align: left;
-	color: lime;
+	color: black;
 }
 
 p{ text-align: left;
-	color: lime;
+	color: black;
 }
 
 .center {
