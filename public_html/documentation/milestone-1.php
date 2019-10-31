@@ -60,4 +60,5 @@
 	<p>As an artist looking to increase bookings for my band I am looking for a front-end developer that can make a </p>
 	<p> quality-interactive site that my potential clients </p>
 
+	<p> </p>
 </body>
