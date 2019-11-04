@@ -14,3 +14,19 @@ You clearly communicated the Purpose, Audience, Goal and Persona.
 Keep up the good work.
 
 $MilestoneOneGrade = "Tier 3";
+
+
+## PWP Milestone 2 Feedback
+
+Awesome job!
+
+There was one error in the HTML:
+An img element must have an alt attribute.
+
+Your content strategy and wire frames are excellent.
+
+
+
+Keep up the good work.
+
+const milestoneTwoGrade = "Tier 3"
