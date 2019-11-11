@@ -29,20 +29,54 @@
 
 
 <section>
-	<div class="container">
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<div class="container-fluid">
+
 			<div class="row">
-					<div class="col-4">
-						<span>
-						<h4> Daniel Hernandez </h4>
-						</span>
+				<nav class="jumbotron container-fluid navbar navbar-expand-lg navbar-light bg-light">
+					<div class="">
+						<h2>
+						 Daniel Hernandez
+						</h2>
 					</div>
-					<div class="col-4">
-						<button class="navbar-toggler-icon"></button>
+					<div class="justify-end">
+						<span class="navbar-toggler-icon"></span>
 					</div>
+				</nav>
 			</div>
-	</nav>
+
 	</div>
+</section>
+
+<section>
+
+	<div class="jumbotron container-fluid">
+		<div class="row">
+			<div class="col-3"> Name, menu icons</div>
+			<div class="col-9">Image</div>
+		</div>
+	</div>
+
+	<div class="jumbotron container-fluid">
+		<div class="row">
+			<div class="col-3">Name, menu icons</div>
+			<div class="col-9">Text, Paragraphs</div>
+		</div>
+	</div>
+
+	<div class="jumbotron container-fluid">
+		<div class="row">
+			<div class="col-3"> Name, menu icons</div>
+			<div class="col-9"> Text,Image</div>
+		</div>
+	</div>
+
+	<div class="jumbotron container-fluid">
+		<div class="row">
+			<div class="col-2"> Name, menu icons</div>
+			<div class="col-10">Contact Form</div>
+		</div>
+	</div>
+
 </section>
 
 </body>
