@@ -29,25 +29,28 @@
 
 
 <section>
-	<div class="container-fluid">
+	<div class="jumbotron container-fluid">
 
-			<div class="row">
-				<nav class="jumbotron container-fluid navbar navbar-expand-lg navbar-light bg-light">
-					<div class="">
+			<div class="row navbar navbar-expand-lg navbar-light bg-light">
+
+					<div class="col-xs-3.5">
+
+					</div>
+					<div class="col-xs-7.5">
 						<h2>
-						 Daniel Hernandez
+							 Daniel Hernandez
 						</h2>
 					</div>
-					<div class="justify-end">
+					<div class="col-xs-1 justify-end">
 						<span class="navbar-toggler-icon"></span>
 					</div>
-				</nav>
+
 			</div>
 
 	</div>
 </section>
 
-<section>
+<section class="my-1">
 
 	<div class="jumbotron container-fluid">
 		<div class="row">
@@ -72,8 +75,16 @@
 
 	<div class="jumbotron container-fluid">
 		<div class="row">
-			<div class="col-2"> Name, menu icons</div>
-			<div class="col-10">Contact Form</div>
+		<div class="col-3">
+			Icons
+		</div>
+		<div class="col-9">
+		<form class="px-4 py-3">
+			<div class="form-group">
+				<label for="exampleDropdownFormEmail1">Email address</label>
+				<input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+			</div>
+		</div>
 		</div>
 	</div>
 
