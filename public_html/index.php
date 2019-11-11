@@ -28,16 +28,12 @@
 <body>
 
 <section>
-	<nav>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<ul class="nav">
-			<h1> Daniel Hernandez </h1>
-			<li>
-				<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Menu</a>
-			</li>
+			<h4> Daniel Hernandez </h4>
+			<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Menu</a>
 		</ul>
 	</nav>
-</section>
-
 </section>
 
 </body>
