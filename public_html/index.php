@@ -27,13 +27,22 @@
 
 <body>
 
+
 <section>
+	<div class="container">
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<ul class="nav">
-			<h4> Daniel Hernandez </h4>
-			<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Menu</a>
-		</ul>
+			<div class="row">
+					<div class="col-4">
+						<span>
+						<h4> Daniel Hernandez </h4>
+						</span>
+					</div>
+					<div class="col-4">
+						<button class="navbar-toggler-icon"></button>
+					</div>
+			</div>
 	</nav>
+	</div>
 </section>
 
 </body>
