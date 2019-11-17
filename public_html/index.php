@@ -45,13 +45,35 @@
 <body>
 
 
-<section >
+<section>
 
 	<nav class="navbar navbar-expand-md navbar-light" style="background-color: navajowhite">
-		<h1 class="navbar-brand mx-auto"> Daniel Hernandez </h1>
-
-		<span class="navbar-toggler-icon" data-toggle="collapse"></span>
+		<a class="navbar-brand mx-auto href"> Daniel Hernandez </a>
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+				  data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="true" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="navbar-collapse collapse" id="navbarToggler">
+			<ul class="navbar-nav">...</ul>
+				<li class="nav-item">...</li>
+				<li class="nav-item">...</li>
+				<li class="nav-item">...</li>
+		</div>
 	</nav>
+
+	<div class="collapse navbar-collapse" id="navbarToggler">
+		<ul class="navbar-nav mr-auto mt-2 mt-md-0">
+			<li class="nav-item active">
+				<a class="nav-link" href="bootstrap-navbar.php"> About <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="bootstrap-navbar.php"> Portfolio</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="bootstrap-navbar.php"> Contact </a>
+			</li>
+		</ul>
+	</div>
 
 </section>
 
