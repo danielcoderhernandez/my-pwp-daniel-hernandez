@@ -83,21 +83,34 @@
 </section>
 
 <section>
-
-	<div class="jumbotron container-fluid my-1">
-		<div class="row">
-			<div class="col-3"> Name, menu icons</div>
-			<div class="col-9">Image</div>
+	<div class="container-fluid">
+		<div class="row text-center">
+			<div class="col-12">
+				<div id="Carousel 1" class="carousel slide" data-ride="carousel">
+					<div class="carousel-item active">
+						<img class="img-thumbnail" src="headshot.jpg" alt="first-slide">
+					</div>
+					<div class="carousel-item active">
+						<img class="img-thumbnail" src="yellowshirt.png" alt="second-slide">
+					</div>
+					<div class="carousel-item active">
+						<img class="img-thumbnail" src="linkenImage.png" alt="third-slide">
+					</div>
+				</div>
+			</div
 		</div>
 	</div>
+</section>
 
+<section>
 	<div class="jumbotron container-fluid my-1">
 		<div class="row">
 			<div class="col-3">Name, menu icons</div>
 			<div class="col-9">Text, Paragraphs</div>
 		</div>
 	</div>
-
+</section>
+<section>
 	<div class="jumbotron container-fluid my-1">
 		<div class="row">
 			<div class="col-3"> Name, menu icons</div>
