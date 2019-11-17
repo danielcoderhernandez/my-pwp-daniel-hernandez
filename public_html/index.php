@@ -17,12 +17,13 @@
 			  crossorigin="anonymous"></script>
 
 
-<!--	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
 			  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
 			  crossorigin="anonymous"></script>
+
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 			  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-			  crossorigin="anonymous"></script> -->
+			  crossorigin="anonymous"></script>
 
 	<!-- jQuery Form, Additional Methods, Validate -->
 
@@ -45,25 +46,13 @@
 
 
 <section >
-	<div class="jumbotron container-fluid bg-info my-1">
 
-			<div class="row navbar navbar-expand-lg navbar-light">
+	<nav class="navbar navbar-expand-md navbar-light" style="background-color: navajowhite">
+		<h1 class="navbar-brand mx-auto"> Daniel Hernandez </h1>
 
-					<div class="col-md-3.5">
+		<span class="navbar-toggler-icon" data-toggle="collapse"></span>
+	</nav>
 
-					</div>
-					<div class="col-md-7.5">
-						<h2>
-							 Daniel Hernandez
-						</h2>
-					</div>
-					<div class="col-md-1 justify-end">
-						<span class="d-inline navbar-toggler-icon"></span>
-					</div>
-
-			</div>
-
-	</div>
 </section>
 
 <section>
@@ -89,24 +78,7 @@
 		</div>
 	</div>
 
-	<div class="jumbotron container-fluid my-1">
-		<div class="row">
-		<div class="col-3">
-			Icons
-		</div>
-		<div class="col-9">
-		<form class="px-4 py-3">
-			<div class="form-group">
-				<label for="exampleDropdownFormEmail1">Email address</label>
-				<input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
-			</div>
-		</div>
-		</div>
 
-
-
-
-	</div>
 
 
 
@@ -118,43 +90,43 @@ Do not copy and paste this one.
 -->
 	<form id="form" action="../php/" method="post">
 		<div class="form-group">
-			<label for="contactDemoName">Name <span class="text-danger">*</span></label>
+			<label for="name">Name <span class="text-danger">*</span></label>
 			<div class="input-group">
 				<div class="input-group-prepend">
 					<span class="input-group-text"></span>
 					<i class="fa fa-user" aria-hidden="true"></i>
 				</div>
-				<input type="text" class="form-control" id="contactDemoName" name="contactDemoName" placeholder="Name">
+				<input type="text" class="form-control" id="contactDemoName" name="name" placeholder="Name">
 			</div>
 		</div>
 		<div class="form-group">
-			<label for="contactDemoEmail">Email <span class="text-danger">*</span></label>
+			<label for="email">Email <span class="text-danger">*</span></label>
 			<div class="input-group">
 				<div class="input-group-prepend">
 					<span class="input-group-text"></span>
 					<i class="fa fa-envelope" aria-hidden="true"></i>
 				</div>
-				<input type="email" class="form-control" id="contactDemoEmail" name="contactDemoEmail" placeholder="Email">
+				<input type="email" class="form-control" id="contactDemoEmail" name="email" placeholder="Email">
 			</div>
 		</div>
 		<div class="form-group">
-			<label for="contactDemoSubject">Subject</label>
+			<label for="subject">Subject</label>
 			<div class="input-group">
 				<div class="input-group-prepend">
 					<span class="input-group-text"></span>
 					<i class="fa fa-pencil" aria-hidden="true"></i>
 				</div>
-				<input type="text" class="form-control" id="contactDemoSubject" name="contactDemoSubject" placeholder="Subject">
+				<input type="text" class="form-control" id="contactDemoSubject" name="subject" placeholder="Subject">
 			</div>
 		</div>
 		<div class="form-group">
-			<label for="contactDemoMessage">Message <span class="text-danger">*</span></label>
+			<label for="message">Message <span class="text-danger">*</span></label>
 			<div class="input-group">
 				<div class="input-group-prepend">
 					<span class="input-group-text"></span>
 					<i class="fa fa-comment" aria-hidden="true"></i>
 				</div>
-				<textarea class="form-control" rows="5" id="contactDemoMessage" name="contactDemoMessage" placeholder="I <3 CopyPasta :D~ (2000 characters max)"></textarea>
+				<textarea class="form-control" rows="5" id="contactDemoMessage" name="message" placeholder="I <3 CopyPasta :D~ (2000 characters max)"></textarea>
 			</div>
 		</div>
 
