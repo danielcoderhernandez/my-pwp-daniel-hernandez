@@ -75,13 +75,12 @@
 			</ul>
 			<ul class="navbar-nav">
 				<li class="nav-item active">
-					<a class="nav-link active" data-class="LinkedIn Icon">
-
+					<a class="nav-link active" data-class="Github">
 						<i class="fab fa-github"></i>
 					</a>
 				</li>
 				<li class="navbar-nav">
-					<a class="nav-link active" data-class="Github Icon">
+					<a class="nav-link active" data-class="Linkedin">
 						<i class="fab fa-linkedin"></i>
 					</a>
 				</li>
@@ -123,29 +122,44 @@
 <section>
 	<div class="jumbotron container-fluid my-1" style="background-color: sandybrown">
 		<div class="text-center container-fluid"
-			<div class="row">
-				<a class="mx-auto"> Daniel Hernandez </a>
-				<div> I am a recent student of the full stack program at
-					<a href="https://deepdivecoding.com/" >
-						<u> CNM Ingenuity Deep Dive Coding Bootcamp. </u>
+		<div class="row">
+			<h1> Current </h1>
+			<div>
+
+				<p> I am a recent student of the full stack program at CNM Ingenuity
+					<a href="https://deepdivecoding.com/">
+						<u>  Deep Dive Coding Bootcamp. </u>
 					</a>
 					LAMP stack is based on Linux, Apache, MySQL, and PHP.
 					This is the most common architecture of the internet, where PHP is the primary language of upto
 					eighty-percent of websites. I was also trained on HTML, CSS, and JavaScript, and Bootstrap for the frontend,
 					while using REACT along with JSX for API support.
-					<br>
-					I earned a BBA in
-					<a href="https://www.mgt.unm.edu/entrepreneurial/default.asp">
-						<u> Entrepreneurship </u>
-					</a>
+				</p>
+
+				<br>
+
+				<h1> Past </h1>
+					<p>I earned a BBA in
+						<a href="https://www.mgt.unm.edu/entrepreneurial/default.asp">
+							<u> Entrepreneurship </u>
+						</a>
 					(2017) from Anderson's School of Management at the University of New Mexico,
 					where I and along side my classmates created multiple business plans including one that was for the
 					New Mexico Jazz Workshop on behalf of the
 					<a href="https://sbi.mgt.unm.edu/">
-						<u> Small Business Institute of New Mexico. </u>
+					<u> Small Business Institute of New Mexico. </u>
 					</a>
-				</div>
+					</p>
+				<br>
+				<h1> Future </h1>
+				<p>
+					I have been accepted to Anderson Masters of Science in Information Systems and Assurance located at the
+					University of New Mexico. My concentration will be in Cybersecurity and Information Assurance, estimated
+					completion will be May of 2021.
+				</p>
+
 			</div>
+		</div>
 	</div>
 </section>
 
