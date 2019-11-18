@@ -41,6 +41,9 @@
 	<!-- Google reCAPTCHA -->
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 
+	<!-- FontAwesome for Icons -->
+	<script src="https://kit.fontawesome.com/d45c32dfd8.js" crossorigin="anonymous"></script>
+
 	<link rel="stylesheet" href="./documentation/directory-style.css">
 
 	<title>Welcome</title>
@@ -73,12 +76,13 @@
 			<ul class="navbar-nav">
 				<li class="nav-item active">
 					<a class="nav-link active" data-class="LinkedIn Icon">
-						Linkedin Icon
+
+						<i class="fab fa-github"></i>
 					</a>
 				</li>
 				<li class="navbar-nav">
 					<a class="nav-link active" data-class="Github Icon">
-						Github Icon
+						<i class="fab fa-linkedin"></i>
 					</a>
 				</li>
 			</ul>
@@ -121,11 +125,11 @@
 		<div class="text-center container-fluid"
 			<div class="row">
 				<a class="mx-auto"> Daniel Hernandez </a>
-				<div> I am a recent student at
+				<div> I am a recent student of the full stack program at
 					<a href="https://deepdivecoding.com/" >
-					<u> CNM Ingenuity Deep Dive Coding Bootcamp. </u>
+						<u> CNM Ingenuity Deep Dive Coding Bootcamp. </u>
 					</a>
-					I took the LAMP full stack program. The LAMP stack is based on Linux, Apache, MySQL, and PHP.
+					LAMP stack is based on Linux, Apache, MySQL, and PHP.
 					This is the most common architecture of the internet, where PHP is the primary language of upto
 					eighty-percent of websites. I was also trained on HTML, CSS, and JavaScript, and Bootstrap for the frontend,
 					while using REACT along with JSX for API support.
