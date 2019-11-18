@@ -39,6 +39,8 @@
 	<!-- Google reCAPTCHA -->
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 
+	<link rel="stylesheet" href="./documentation/directory-style.css">
+
 	<title>Welcome</title>
 </head>
 
@@ -83,21 +85,29 @@
 </section>
 
 <section>
-	<div class="container-fluid">
+	<div class="container-fluid" style="background-color:black">
 		<div class="row text-center">
-			<div class="col-12">
+			<div class="col-3"></div>
+			<div class="col-6">
+				<ol class="carousel-indicators">
+					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				</ol>
 				<div id="Carousel 1" class="carousel slide" data-ride="carousel">
 					<div class="carousel-item active">
-						<img class="img-thumbnail" src="headshot.jpg" alt="first-slide">
+						<img class="d-block img-fluid" src="headshot1to1.png" alt="first-slide">
 					</div>
-					<div class="carousel-item active">
-						<img class="img-thumbnail" src="yellowshirt.png" alt="second-slide">
+					<div class="carousel-item">
+						<img class="d-block img-fluid" src="yellow1to1.png" alt="second-slide">
 					</div>
-					<div class="carousel-item active">
-						<img class="img-thumbnail" src="linkenImage.png" alt="third-slide">
+					<div class="carousel-item">
+						<img class="d-block img-fluid" src="linkedin1to1.png" alt="third-slide">
 					</div>
+
 				</div>
-			</div
+			</div>
+			<div class="col-3"></div>
 		</div>
 	</div>
 </section>
@@ -123,12 +133,9 @@
 
 
 	<!--
-Begin Sample Contact Form
-
-Create your own contact form.
-Do not copy and paste this one.
+Contact Form.
 -->
-	<form id="form" action="../php/" method="post">
+	<form class="container-fluid" id="form" action="../php/" method="post" style="background-color: sandybrown">
 		<div class="form-group">
 			<label for="name">Name <span class="text-danger">*</span></label>
 			<div class="input-group">
