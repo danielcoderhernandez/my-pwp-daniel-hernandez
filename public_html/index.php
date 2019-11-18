@@ -28,10 +28,12 @@
 	<!-- jQuery Form, Additional Methods, Validate -->
 
 
-
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+	<script type="text/javascript"
+			  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+	<script type="text/javascript"
+			  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+	<script type="text/javascript"
+			  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 	<!-- Your JavaScript Form Validator -->
 	<script src="js/form-validate.js"></script>
@@ -52,7 +54,8 @@
 	<nav class="navbar navbar-expand-md navbar-light fixed-left" style="background-color: navajowhite">
 		<a class="navbar-brand mx-auto href"> Daniel Hernandez </a>
 		<button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse"
-				  data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+				  data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
+				  aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="navbar-collapse collapse" id="navbarToggler" style>
@@ -112,14 +115,36 @@
 	</div>
 </section>
 
+<!-- About Section -->
 <section>
-	<div class="jumbotron container-fluid my-1">
-		<div class="row">
-			<div class="col-3">Name, menu icons</div>
-			<div class="col-9">Text, Paragraphs</div>
-		</div>
+	<div class="jumbotron container-fluid my-1" style="background-color: sandybrown">
+		<div class="text-center container-fluid"
+			<div class="row">
+				<a class="mx-auto"> Daniel Hernandez </a>
+				<div> I am a recent student at
+					<a href="https://deepdivecoding.com/" >
+					<u> CNM Ingenuity Deep Dive Coding Bootcamp. </u>
+					</a>
+					I took the LAMP full stack program. The LAMP stack is based on Linux, Apache, MySQL, and PHP.
+					This is the most common architecture of the internet, where PHP is the primary language of upto
+					eighty-percent of websites. I was also trained on HTML, CSS, and JavaScript, and Bootstrap for the frontend,
+					while using REACT along with JSX for API support.
+					<br>
+					I earned a BBA in
+					<a href="https://www.mgt.unm.edu/entrepreneurial/default.asp">
+						<u> Entrepreneurship </u>
+					</a>
+					(2017) from Anderson's School of Management at the University of New Mexico,
+					where I and along side my classmates created multiple business plans including one that was for the
+					New Mexico Jazz Workshop on behalf of the
+					<a href="https://sbi.mgt.unm.edu/">
+						<u> Small Business Institute of New Mexico. </u>
+					</a>
+				</div>
+			</div>
 	</div>
 </section>
+
 <section>
 	<div class="jumbotron container-fluid my-1">
 		<div class="row">
@@ -127,70 +152,68 @@
 			<div class="col-9"> Text,Image</div>
 		</div>
 	</div>
+</section>
 
 
-
-
-
-	<!--
+<!--
 Contact Form.
 -->
-	<form class="container-fluid" id="form" action="../php/" method="post" style="background-color: sandybrown">
-		<div class="form-group">
-			<label for="name">Name <span class="text-danger">*</span></label>
-			<div class="input-group">
-				<div class="input-group-prepend">
-					<span class="input-group-text"></span>
-					<i class="fa fa-user" aria-hidden="true"></i>
-				</div>
-				<input type="text" class="form-control" id="contactDemoName" name="name" placeholder="Name">
+<form class="container-fluid" id="form" action="../php/" method="post" style="background-color: sandybrown">
+	<div class="form-group">
+		<label for="name">Name <span class="text-danger">*</span></label>
+		<div class="input-group">
+			<div class="input-group-prepend">
+				<span class="input-group-text"></span>
+				<i class="fa fa-user" aria-hidden="true"></i>
 			</div>
+			<input type="text" class="form-control" id="contactDemoName" name="name" placeholder="Name">
 		</div>
-		<div class="form-group">
-			<label for="email">Email <span class="text-danger">*</span></label>
-			<div class="input-group">
-				<div class="input-group-prepend">
-					<span class="input-group-text"></span>
-					<i class="fa fa-envelope" aria-hidden="true"></i>
-				</div>
-				<input type="email" class="form-control" id="contactDemoEmail" name="email" placeholder="Email">
+	</div>
+	<div class="form-group">
+		<label for="email">Email <span class="text-danger">*</span></label>
+		<div class="input-group">
+			<div class="input-group-prepend">
+				<span class="input-group-text"></span>
+				<i class="fa fa-envelope" aria-hidden="true"></i>
 			</div>
+			<input type="email" class="form-control" id="contactDemoEmail" name="email" placeholder="Email">
 		</div>
-		<div class="form-group">
-			<label for="subject">Subject</label>
-			<div class="input-group">
-				<div class="input-group-prepend">
-					<span class="input-group-text"></span>
-					<i class="fa fa-pencil" aria-hidden="true"></i>
-				</div>
-				<input type="text" class="form-control" id="contactDemoSubject" name="subject" placeholder="Subject">
+	</div>
+	<div class="form-group">
+		<label for="subject">Subject</label>
+		<div class="input-group">
+			<div class="input-group-prepend">
+				<span class="input-group-text"></span>
+				<i class="fa fa-pencil" aria-hidden="true"></i>
 			</div>
+			<input type="text" class="form-control" id="contactDemoSubject" name="subject" placeholder="Subject">
 		</div>
-		<div class="form-group">
-			<label for="message">Message <span class="text-danger">*</span></label>
-			<div class="input-group">
-				<div class="input-group-prepend">
-					<span class="input-group-text"></span>
-					<i class="fa fa-comment" aria-hidden="true"></i>
-				</div>
-				<textarea class="form-control" rows="5" id="contactDemoMessage" name="message" placeholder="I <3 CopyPasta :D~ (2000 characters max)"></textarea>
+	</div>
+	<div class="form-group">
+		<label for="message">Message <span class="text-danger">*</span></label>
+		<div class="input-group">
+			<div class="input-group-prepend">
+				<span class="input-group-text"></span>
+				<i class="fa fa-comment" aria-hidden="true"></i>
 			</div>
-		</div>
-
-		<!-- reCAPTCHA -->
-		<div class="g-recaptcha" data-sitekey="6LerKsIUAAAAABhYOrCPFviJlEas5Q_fmhUrmiXh"></div>
-
-		<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-		<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-	</form>
-
-	<!--empty area for form error/success output-->
-	<div class="row">
-		<div class="col-xs-12">
-			<div id="output-area"></div>
+			<textarea class="form-control" rows="5" id="contactDemoMessage" name="message"
+						 placeholder="I <3 CopyPasta :D~ (2000 characters max)"></textarea>
 		</div>
 	</div>
 
+	<!-- reCAPTCHA -->
+	<div class="g-recaptcha" data-sitekey="6LerKsIUAAAAABhYOrCPFviJlEas5Q_fmhUrmiXh"></div>
+
+	<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+	<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+</form>
+
+<!--empty area for form error/success output-->
+<div class="row">
+	<div class="col-xs-12">
+		<div id="output-area"></div>
+	</div>
+</div>
 
 
 </section>
