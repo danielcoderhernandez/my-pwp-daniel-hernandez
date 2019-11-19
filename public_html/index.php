@@ -91,10 +91,10 @@
 </section>
 
 <section>
-	<div class="container-fluid" style="background-color:black">
+	<div class="container-fluid" style="background-color: black">
 		<div class="row text-center">
-			<div class="col-3"></div>
-			<div class="col-6">
+			<div class="col-lg-4 col-md-0"></div>
+			<div class="col-lg-4 col-md-0">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -113,14 +113,14 @@
 
 				</div>
 			</div>
-			<div class="col-3"></div>
+			<div class="col-lg-4 col-md-0"></div>
 		</div>
 	</div>
 </section>
 
 <!-- About Section -->
 <section>
-	<div class="jumbotron container-fluid my-1" style="background-color: sandybrown">
+	<div class="container-fluid" style="background-color: #790604" >
 		<div class="text-center container-fluid"
 		<div class="row">
 			<h1> Current </h1>
@@ -128,32 +128,38 @@
 
 				<p> I am a recent student of the full stack program at CNM Ingenuity
 					<a href="https://deepdivecoding.com/">
-						<u>  Deep Dive Coding Bootcamp. </u>
+						Deep Dive Coding Bootcamp.
 					</a>
 					LAMP stack is based on Linux, Apache, MySQL, and PHP.
 					This is the most common architecture of the internet, where PHP is the primary language of upto
-					eighty-percent of websites. I was also trained on HTML, CSS, and JavaScript, and Bootstrap for the frontend,
+					eighty-percent of websites. I was also trained on HTML, CSS, and JavaScript, and Bootstrap for the
+					frontend,
 					while using REACT along with JSX for API support.
 				</p>
 
 				<br>
 
 				<h1> Past </h1>
-					<p>I earned a BBA in
-						<a href="https://www.mgt.unm.edu/entrepreneurial/default.asp">
-							<u> Entrepreneurship </u>
-						</a>
+				<p>I earned a BBA in
+					<a href="https://www.mgt.unm.edu/entrepreneurial/default.asp">
+						Entrepreneurship
+					</a>
 					(2017) from Anderson's School of Management at the University of New Mexico,
 					where I and along side my classmates created multiple business plans including one that was for the
 					New Mexico Jazz Workshop on behalf of the
 					<a href="https://sbi.mgt.unm.edu/">
-					<u> Small Business Institute of New Mexico. </u>
+						Small Business Institute
 					</a>
-					</p>
+					of New Mexico.
+				</p>
 				<br>
 				<h1> Future </h1>
-				<p>
-					I have been accepted to Anderson Masters of Science in Information Systems and Assurance located at the
+				<p class="mb-0">
+					I have been accepted to Anderson Masters of Science in Information Systems and Assurance
+					<a href="https://msisa.mgt.unm.edu">
+						MSISA
+					</a>
+					located at the
 					University of New Mexico. My concentration will be in Cybersecurity and Information Assurance, estimated
 					completion will be May of 2021.
 				</p>
@@ -161,10 +167,32 @@
 			</div>
 		</div>
 	</div>
+
+
+<!-- logos -->
+	<div class="container-fluid">
+		<div class="row d-flex justify-content-center">
+			<div class="col-4">
+				<a href="https://deepdivecoding.com/">
+				<img class="d-block img-fluid" src="deepdiveLogo.png" alt="deepdivelogo">
+				</a>
+			</div>
+			<div class="col-4">
+				<a href="https://www.mgt.unm.edu/entrepreneurial/default.asp">
+				<img class="d-block img-fluid" src="UNMAnderson-200x119.jpg" alt="UNM logo">
+				</a>
+			</div>
+			<div class="col-4">
+				<a href="https://sbi.mgt.unm.edu/">
+				<img class="d-block img-fluid" src="sbiLogo.jpg" alt="sbi logo">
+				</a>
+			</div>
+		</div>
+	</div>
 </section>
 
 <section>
-	<div class="jumbotron container-fluid my-1">
+	<div class="container-fluid" style="background-color: #790604">
 		<div class="row">
 			<div class="col-3"> Name, menu icons</div>
 			<div class="col-9"> Text,Image</div>
