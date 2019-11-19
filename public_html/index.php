@@ -90,37 +90,23 @@
 
 </section>
 
+<!-- Name Section -->
 <section>
-	<div class="container-fluid" style="background-color: black">
-		<div class="row text-center">
-			<div class="col-lg-4 col-md-0"></div>
-			<div class="col-lg-4 col-md-0">
-				<ol class="carousel-indicators">
-					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-				</ol>
-				<div id="Carousel 1" class="carousel slide" data-ride="carousel">
-					<div class="carousel-item active">
-						<img class="d-block img-fluid" src="headshot1to1.png" alt="first-slide">
-					</div>
-					<div class="carousel-item">
-						<img class="d-block img-fluid" src="yellow1to1.png" alt="second-slide">
-					</div>
-					<div class="carousel-item">
-						<img class="d-block img-fluid" src="linkedin1to1.png" alt="third-slide">
-					</div>
-
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-0"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col"></div>
+			<div class="col"></div>
+			<div class="col"></div>
+			<div class="col"></div>
+			<div class="col"></div>
+			<div class="col"></div>
 		</div>
 	</div>
 </section>
 
 <!-- About Section -->
 <section>
-	<div class="container-fluid" style="background-color: #790604" >
+	<div class="container-fluid" style="background-color: #790604">
 		<div class="text-center container-fluid"
 		<div class="row">
 			<h1> Current </h1>
@@ -168,29 +154,29 @@
 		</div>
 	</div>
 
-
-<!-- logos -->
+	<!-- logos -->
 	<div class="container-fluid">
 		<div class="row d-flex justify-content-center">
 			<div class="col-4">
 				<a href="https://deepdivecoding.com/">
-				<img class="d-block img-fluid" src="deepdiveLogo.png" alt="deepdivelogo">
+					<img class="d-block img-fluid" src="deepdiveLogo.png" alt="deepdivelogo">
 				</a>
 			</div>
 			<div class="col-4">
 				<a href="https://www.mgt.unm.edu/entrepreneurial/default.asp">
-				<img class="d-block img-fluid" src="UNMAnderson-200x119.jpg" alt="UNM logo">
+					<img class="d-block img-fluid" src="UNMAnderson-200x119.jpg" alt="UNM logo">
 				</a>
 			</div>
 			<div class="col-4">
 				<a href="https://sbi.mgt.unm.edu/">
-				<img class="d-block img-fluid" src="sbiLogo.jpg" alt="sbi logo">
+					<img class="d-block img-fluid" src="sbiLogo.jpg" alt="sbi logo">
 				</a>
 			</div>
 		</div>
 	</div>
 </section>
 
+<!--Portfolio-->
 <section>
 	<div class="container-fluid" style="background-color: #790604">
 		<div class="row">
@@ -204,7 +190,7 @@
 <!--
 Contact Form.
 -->
-<form class="container-fluid" id="form" action="../php/" method="post" style="background-color: sandybrown">
+<form class="container-fluid" id="form" action="../php/" method="post" style="background-color: #790604">
 	<div class="form-group">
 		<label for="name">Name <span class="text-danger">*</span></label>
 		<div class="input-group">
@@ -243,7 +229,7 @@ Contact Form.
 				<i class="fa fa-comment" aria-hidden="true"></i>
 			</div>
 			<textarea class="form-control" rows="5" id="contactDemoMessage" name="message"
-						 placeholder="I <3 CopyPasta :D~ (2000 characters max)"></textarea>
+						 placeholder="(2000 characters max)"></textarea>
 		</div>
 	</div>
 
@@ -260,9 +246,6 @@ Contact Form.
 		<div id="output-area"></div>
 	</div>
 </div>
-
-
-</section>
 
 </body>
 
