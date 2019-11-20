@@ -94,12 +94,13 @@
 <section>
 	<div class="container">
 		<div class="row">
-			<div class="col"></div>
-			<div class="col"></div>
-			<div class="col"></div>
-			<div class="col"></div>
-			<div class="col"></div>
-			<div class="col"></div>
+			<div class="col-md-2"></div>
+				<img src="images/headshot1to1.png" alt="headshot">
+			<div class="col-md-2"></div>
+			<div class="col-md-2"></div>
+			<div class="col-md-2"></div>
+			<div class="col-md-2"></div>
+			<div class="col-md-2"></div>
 		</div>
 	</div>
 </section>
@@ -159,17 +160,17 @@
 		<div class="row d-flex justify-content-center">
 			<div class="col-4">
 				<a href="https://deepdivecoding.com/">
-					<img class="d-block img-fluid" src="deepdiveLogo.png" alt="deepdivelogo">
+					<img class="d-block img-fluid" src="images/deepdiveLogo.png" alt="deepdivelogo">
 				</a>
 			</div>
 			<div class="col-4">
 				<a href="https://www.mgt.unm.edu/entrepreneurial/default.asp">
-					<img class="d-block img-fluid" src="UNMAnderson-200x119.jpg" alt="UNM logo">
+					<img class="d-block img-fluid" src="images/UNMAnderson-200x119.jpg" alt="UNM logo">
 				</a>
 			</div>
 			<div class="col-4">
 				<a href="https://sbi.mgt.unm.edu/">
-					<img class="d-block img-fluid" src="sbiLogo.jpg" alt="sbi logo">
+					<img class="d-block img-fluid" src="images/sbiLogo.jpg" alt="sbi logo">
 				</a>
 			</div>
 		</div>
