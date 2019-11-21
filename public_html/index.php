@@ -44,7 +44,7 @@
 	<!-- FontAwesome for Icons -->
 	<script src="https://kit.fontawesome.com/d45c32dfd8.js" crossorigin="anonymous"></script>
 
-	<link rel="stylesheet" href="./documentation/directory-style.css">
+	<link rel="stylesheet" href="./style.css">
 
 	<title>Welcome</title>
 </head>
@@ -53,8 +53,8 @@
 
 
 <section>
-
-	<nav class="navbar navbar-expand-md navbar-light fixed-left" style="background-color: navajowhite">
+<!--Navbar Section-->
+	<nav class="navbar fixed-top navbar-expand-md navbar-dark fixed-left">
 		<a class="navbar-brand mx-auto href"> Daniel Hernandez </a>
 		<button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse"
 				  data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
@@ -90,24 +90,83 @@
 
 </section>
 
-<!-- Name Section -->
 <section>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-2"></div>
-				<img src="images/headshot1to1.png" alt="headshot">
-			<div class="col-md-2"></div>
-			<div class="col-md-2"></div>
-			<div class="col-md-2"></div>
-			<div class="col-md-2"></div>
-			<div class="col-md-2"></div>
-		</div>
+	<div class="container-fluid guadalupebg">
+
 	</div>
 </section>
 
+<!-- Name Section -->
+
+	<div class="container-fluid">
+
+		<div class="row">
+			<div class="col-md-2 m-0 p-0">
+				<img class="pics d-none d-lg-block" src="images/headshot1to1.png" alt="headshot">
+			</div>
+			<div class="col-md-2 m-0 p-0">
+				<img class="pics d-none d-lg-block" src="images/1to1yellow.png" alt="deepdive logo">
+			</div>
+			<div class="col-md-2 m-0 p-0">
+				<img class="pics d-none d-lg-block" src="images/1to1steakhouse.png" alt="cover of business plan">
+			</div>
+			<div class="col-md-2 m-0 p-0">
+				<img class="pics d-none d-lg-block" src="images/1to1bosal.png" alt="horse">
+			</div>
+			<div class="col-md-2 m-0 p-0">
+				<img class="pics d-none d-lg-block" src="images/1to1anderson.jpg" alt="anderson logo">
+			</div>
+			<div class="col-md-2 m-0 p-0">
+				<img class="pics d-none d-lg-block" src="images/peanut1to1.jpg" alt="cowboy photo">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2 m-0 p-0">
+				<img class="pics d-none d-lg-block" src="images/1to1jazzworkshop.jpg" alt="bus plan">
+			</div>
+			<div class="col-md-2 m-0 p-0">
+				<img class="pics d-none d-lg-block" src="images/1to1chevy.jpg" alt="chevy">
+			</div>
+			<div class="col-md-2 m-0 p-0">
+				<img class="pics d-none d-lg-block" src="images/1to1nightsky.jpg" alt="night sky">
+			</div>
+			<div class="col-md-2 m-0 p-0">
+				<img class="pics d-none d-lg-block" src="images/1to1lady.jpg" alt="dog">
+			</div>
+			<div class="col-md-2 m-0 p-0">
+				<img class="pics d-none d-lg-block" src="images/1to1dakota.jpg" alt="horse">
+			</div>
+			<div class="col-md-2 m-0 p-0">
+				<img class="pics d-none d-lg-block" src="images/1to1book.jpg" alt="text in book">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2 m-0 p-0">
+				<img class="pics d-none d-lg-block" src="images/1to1me.jpeg" alt="profile">
+			</div>
+			<div class="col-md-2 m-0 p-0">
+				<img class="pics d-none d-lg-block" src="images/1to1bernadine.png" alt="feedback">
+			</div>
+			<div class="col-md-2 m-0 p-0">
+				<img class="pics d-none d-lg-block" src="images/1to1bella.jpg" alt="rottweiler">
+			</div>
+			<div class="col-md-2 m-0 p-0">
+				<img class="pics d-none d-lg-block" src="images/1to1stamp.jpg" alt="nm stamp">
+			</div>
+			<div class="col-md-2 m-0 p-0">
+				<img class="pics d-none d-lg-block" src="images/1to1journal.png" alt="newspaper">
+			</div>
+			<div class="col-md-2 m-0 p-0">
+				<img class="pics d-none d-lg-block" src="images/1to1house.jpg" alt="adobe house">
+			</div>
+		</div>
+
+	</div>
+
+
 <!-- About Section -->
-<section>
-	<div class="container-fluid" style="background-color: #790604">
+
+	<div class="container-fluid aboutbg">
 		<div class="text-center container-fluid"
 		<div class="row">
 			<h1> Current </h1>
@@ -175,7 +234,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+
 
 <!--Portfolio-->
 <section>

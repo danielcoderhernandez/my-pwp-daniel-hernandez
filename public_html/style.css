@@ -1,5 +1,43 @@
-/*photo {*/
-/*	@media (max-width: 500px)*/
-/*}*/
 
+.namebg {
+	background: url("./images/1stdivbg.png") no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 627px;
+}
 
+.aboutbg {
+	background: url("./images/cuatesBW.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 720px;
+}
+
+.guadalupebg {
+	background: url("./images/twoStory.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 700px;
+}
+
+a {
+	font-size: large;
+}
+
+p {
+	font-family: cursive;
+}
+
+.pics {
+	url("./images/yellowOriginal.png");
+	width: 100%;
+}
