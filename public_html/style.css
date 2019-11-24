@@ -59,6 +59,15 @@ a {
 h1 {
 	margin-left: 20px;
 	margin-bottom: 0px;
+	text-align: center;
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: 1px;
+	color: black;
+}
+
+h2 {
+	margin-left: 20px;
+	margin-bottom: 0px;
 	text-align: left;
 	-webkit-text-stroke-color: black;
 	-webkit-text-stroke-width: 1px;
