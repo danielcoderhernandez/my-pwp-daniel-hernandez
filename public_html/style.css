@@ -20,7 +20,7 @@
 }
 
 .guadalupebg {
-	background: url("./images/twoStory.jpg") no-repeat center fixed;
+	background: url("./images/guadalupeFull.png") no-repeat center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -57,26 +57,32 @@ a {
 }
 
 h1 {
+	margin-left: 20px;
+	margin-bottom: 0px;
 	text-align: left;
 	-webkit-text-stroke-color: black;
 	-webkit-text-stroke-width: 1px;
-	line-height: 1.8;
 	color: black;
 }
 
 nav {
 	background-color: yellow;
-	height: 100px;
+	height: 75px;
 	font-family: cursive;
 	font-size: xx-large;
-	font-weight: bold;
+	font-weight: bolder;
 	text-decoration-width: auto;
+	text-emphasis: black;
 }
 
 p {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	text-align-all: center;
 	color: black;
 	font-family: cursive;
-	font-size: x-large;
+	font-size: large;
 	font-weight: bold;
 	text-align: justify;
 	text-decoration-width: auto;
