@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
@@ -44,10 +44,11 @@
 	<title>Welcome</title>
 </head>
 
-<body>
+
+
 <!--Navbar Section-->
-<section>
-	<nav class="navbar fixed-top navbar-expand-md navbar-dark fixed-left">
+<div class="container-fluid">
+	<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-header p-1 fixed-left">
 		<a class="navbar-brand mx-auto href"> Daniel Hernandez </a>
 		<button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse"
 				  data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
@@ -81,18 +82,30 @@
 		</div>
 	</nav>
 
-</section>
+</div>
 
+<body class="container-fluid">
 <!--HomePage Section -->
 <section>
-	<div class="container-fluid guadalupebg">
+	<div class="guadalupebg">
+		<div class="row">
+			<div class="col-12">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-3"></div>
+			<div class="col-9">
+				Daniel Hernandez
+			</div>
 
+		</div>
 	</div>
 </section>
 
+
 <!-- Name Section -->
 <section>
-	<div class="container-fluid">
+	<div>
 
 		<div class="row">
 			<div class="col-md-2 m-0 p-0">
@@ -159,147 +172,153 @@
 </section>
 
 <!-- About Section -->
-<div class="container-fluid aboutbg">
-	<div class="text-center container-fluid">
-	<div class="row">
-
-		<h1> Current </h1>
-		<div>
-			<p> Student at the full stack program at CNM Ingenuity's
-
-				<a href="https://deepdivecoding.com/">
-					Deep Dive Coding Bootcamp.
-				</a>
-
-				Trained in the LAMP stack which is based on Linux, Apache, MySQL, and PHP.
-				This is the most common stack of the internet, where PHP is the primary language of upto
-				eighty-percent of websites. Training also included JavaScript, HTML, CSS, Bootstrap, React, Insomnia, JSX, Docker,
-				PHP Storm.
-
-			</p>
-		</div>
-		<div>
-			<h1> Past </h1>
-			<p class="bg-transparent text-dark $enable-gradients">I earned a BBA in
-				<a href="https://www.mgt.unm.edu/entrepreneurial/default.asp">
-					Entrepreneurship
-				</a>
-				(2017) from Anderson's School of Management at the University of New Mexico,
-				where I and along side my classmates created multiple business plans including one that was for the
-				New Mexico Jazz Workshop on behalf of the
-				<a href="https://sbi.mgt.unm.edu/">
-					Small Business Institute
-				</a>
-				of New Mexico.
-			</p>
-		</div>
-		<div>
-			<h1> Future </h1>
-			<p class="mb-0">
-				I have been accepted to Anderson Masters of Science in Information Systems and Assurance
-				<a href="https://msisa.mgt.unm.edu">
-					MSISA
-				</a>
-				located at the
-				University of New Mexico. My concentration will be in Cybersecurity and Information Assurance, estimated
-				completion will be May of 2021.
-			</p>
-		</div>
-	</div>
-</div>
-
-<!-- logos -->
-<div class="container-fluid">
-	<div class="row d-flex justify-content-center">
-		<div class="col-4">
-			<a href="https://deepdivecoding.com/">
-				<img class="d-block img-fluid" src="images/deepdiveLogo.png" alt="deepdivelogo">
-			</a>
-		</div>
-		<div class="col-4">
-			<a href="https://www.mgt.unm.edu/entrepreneurial/default.asp">
-				<img class="d-block img-fluid" src="images/UNMAnderson-200x119.jpg" alt="UNM logo">
-			</a>
-		</div>
-		<div class="col-4">
-			<a href="https://sbi.mgt.unm.edu/">
-				<img class="d-block img-fluid" src="images/sbiLogo.jpg" alt="sbi logo">
-			</a>
-		</div>
-	</div>
-</div>
-
-
-<!--Portfolio-->
-<section>
-	<div class="container-fluid" style="background-color: #790604">
+<div class="aboutbg">
+	<div class="text-center transparentbg">
 		<div class="row">
-			<div class="col-3"> Name, menu icons</div>
-			<div class="col-9"> Text,Image</div>
-		</div>
-	</div>
-</section>
 
+			<h1> Current </h1>
+			<div>
+				<p> Student at the full stack program at CNM Ingenuity's
 
-<!--
-Contact Form.
--->
-<form class="container-fluid" id="form" action="../php/" method="post" style="background-color: #790604">
-	<div class="form-group">
-		<label for="name">Name <span class="text-danger">*</span></label>
-		<div class="input-group">
-			<div class="input-group-prepend">
-				<span class="input-group-text"></span>
-				<i class="fa fa-user" aria-hidden="true"></i>
+					<a href="https://deepdivecoding.com/">
+						Deep Dive Coding Bootcamp.
+					</a>
+
+					Trained in the LAMP stack which is based on Linux, Apache, MySQL, and PHP.
+					This is the most common stack of the internet, where PHP is the primary language of upto
+					eighty-percent of websites. Training also included JavaScript, HTML, CSS, Bootstrap, React, Insomnia,
+					JSX, Docker,
+					PHP Storm.
+
+				</p>
 			</div>
-			<input type="text" class="form-control" id="contactDemoName" name="name" placeholder="Name">
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="email">Email <span class="text-danger">*</span></label>
-		<div class="input-group">
-			<div class="input-group-prepend">
-				<span class="input-group-text"></span>
-				<i class="fa fa-envelope" aria-hidden="true"></i>
+			<div>
+				<h1> Past </h1>
+				<p class="mb-0">I earned a BBA in
+					<a href="https://www.mgt.unm.edu/entrepreneurial/default.asp">
+						Entrepreneurship
+					</a>
+					(2017) from Anderson's School of Management at the University of New Mexico,
+					where I and along side my classmates created multiple business plans including one that was for the
+					New Mexico Jazz Workshop on behalf of the
+					<a href="https://sbi.mgt.unm.edu/">
+						Small Business Institute
+					</a>
+					of New Mexico.
+				</p>
 			</div>
-			<input type="email" class="form-control" id="contactDemoEmail" name="email" placeholder="Email">
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="subject">Subject</label>
-		<div class="input-group">
-			<div class="input-group-prepend">
-				<span class="input-group-text"></span>
-				<i class="fa fa-pencil" aria-hidden="true"></i>
+			<div>
+				<h1> Future </h1>
+				<p class="mb-0">
+					I have been accepted to Anderson Masters of Science in Information Systems and Assurance
+					<a href="https://msisa.mgt.unm.edu">
+						MSISA
+					</a>
+					located at the
+					University of New Mexico. My concentration will be in Cybersecurity and Information Assurance, estimated
+					completion will be May of 2021.
+				</p>
 			</div>
-			<input type="text" class="form-control" id="contactDemoSubject" name="subject" placeholder="Subject">
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="message">Message <span class="text-danger">*</span></label>
-		<div class="input-group">
-			<div class="input-group-prepend">
-				<span class="input-group-text"></span>
-				<i class="fa fa-comment" aria-hidden="true"></i>
-			</div>
-			<textarea class="form-control" rows="5" id="contactDemoMessage" name="message"
-						 placeholder="(2000 characters max)"></textarea>
 		</div>
 	</div>
 
-	<!-- reCAPTCHA -->
-	<div class="g-recaptcha" data-sitekey="6LerKsIUAAAAABhYOrCPFviJlEas5Q_fmhUrmiXh"></div>
+	<!-- logos -->
+	<section>
+		<div class="container-fluid">
+			<div class="row d-flex justify-content-center">
+				<div class="col-4">
+					<a href="https://deepdivecoding.com/">
+						<img class="d-block img-fluid" src="images/deepdiveLogo.png" alt="deepdivelogo">
+					</a>
+				</div>
+				<div class="col-4">
+					<a href="https://www.mgt.unm.edu/entrepreneurial/default.asp">
+						<img class="d-block img-fluid" src="images/UNMAnderson-200x119.jpg" alt="UNM logo">
+					</a>
+				</div>
+				<div class="col-4">
+					<a href="https://sbi.mgt.unm.edu/">
+						<img class="d-block img-fluid" src="images/sbiLogo.jpg" alt="sbi logo">
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
 
-	<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-	<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-</form>
 
-<!--empty area for form error/success output-->
-<div class="row">
-	<div class="col-xs-12">
-		<div id="output-area"></div>
+	<!--Portfolio-->
+	<section>
+		<div class="container-fluid" style="background-color: #790604">
+			<div class="row">
+				<div class="col-3"> Name, menu icons</div>
+				<div class="col-9"> Text,Image</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!--
+	Contact Form.
+	-->
+	<div class="container-fluid">
+	<form class="form" id="form" action="../php/" method="post">
+		<div class="form-group">
+			<label for="name">Name <span class="text-danger">*</span></label>
+			<div class="input-group">
+				<div class="input-group-prepend">
+					<span class="input-group-text"></span>
+					<i class="fa fa-user" aria-hidden="true"></i>
+				</div>
+				<input type="text" class="form-control" id="contactDemoName" name="name" placeholder="Name">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="email">Email <span class="text-danger">*</span></label>
+			<div class="input-group">
+				<div class="input-group-prepend">
+					<span class="input-group-text"></span>
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+				</div>
+				<input type="email" class="form-control" id="contactDemoEmail" name="email" placeholder="Email">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="subject">Subject</label>
+			<div class="input-group">
+				<div class="input-group-prepend">
+					<span class="input-group-text"></span>
+					<i class="fa fa-pencil" aria-hidden="true"></i>
+				</div>
+				<input type="text" class="form-control" id="contactDemoSubject" name="subject" placeholder="Subject">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="message">Message <span class="text-danger">*</span></label>
+			<div class="input-group">
+				<div class="input-group-prepend">
+					<span class="input-group-text"></span>
+					<i class="fa fa-comment" aria-hidden="true"></i>
+				</div>
+				<textarea class="form-control" rows="5" id="contactDemoMessage" name="message"
+							 placeholder="(2000 characters max)"></textarea>
+			</div>
+		</div>
+
+		<!-- reCAPTCHA -->
+		<div class="g-recaptcha" data-sitekey="6LerKsIUAAAAABhYOrCPFviJlEas5Q_fmhUrmiXh"></div>
+
+		<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+		<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+	</form>
 	</div>
+
+	<!--empty area for form error/success output-->
+	<div class="row">
+		<div class="col-xs-12">
+			<div id="output-area"></div>
+		</div>
+	</div>
+
 </div>
-
 </body>
 
