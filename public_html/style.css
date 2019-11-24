@@ -33,8 +33,19 @@ a {
 	font-size: large;
 }
 
+h1 {
+	text-align: left;
+	line-height: 1.8;
+	color: white;
+}
+
 p {
 	font-family: cursive;
+	font-size: x-large;
+	font-weight: bold;
+	text-align: justify;
+	text-decoration-width: auto;
+	color: white;
 }
 
 .pics {
