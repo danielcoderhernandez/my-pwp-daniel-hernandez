@@ -46,33 +46,33 @@
 
 
 <!--Navbar Section-->
-<div class="container-fluid mb-0">
-	<div class="row">
-		<nav class="navbar fixed-top navbar-expand-md navbar-light bg-header p-1 fixed-left">
+<!--<div class="container-fluid mb-0">-->
+<!--	<div class="row">-->
+		<nav class="navbar navbar-expand-md navbar-light fixed-left">
 			<a class="navbar-brand mx-auto href">
-				<p>Daniel Hernandez</p>
+				<h3>Daniel Hernandez</h3>
 			</a>
 
 			<button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse"
-					  data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
+					  data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="true"
 					  aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="navbar-collapse collapse" id="navbarToggler">
 				<ul class="navbar-nav mx-auto">
 					<li class="nav-item active">
-						<a class="nav-link">
-							<p>About</p>
+						<a class="nav-link" href="#About">
+							<h3>About</h3>
 						</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link">
-							<p>Portfolio</p>
+						<a class="nav-link" href="#Portfolio">
+							<h3>Portfolio</h3>
 						</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link">
-							<p>Contact </p>
+						<a class="nav-link" href="#Contact">
+							<h3>Contact </h3>
 						</a>
 					</li>
 				</ul>
@@ -90,11 +90,11 @@
 				</ul>
 			</div>
 		</nav>
-	</div>
-</div>
+<!--	</div>-->
+<!--</div>-->
 
-<body class="container-fluid mt-5">
-
+<body class="container-fluid aboutbg mt-3">
+<section class="transparentbg">
 <!-- Name Section -->
 <section>
 	<div>
@@ -164,16 +164,20 @@
 </section>
 
 <!-- About Section -->
-<div class="aboutbg">
-	<div class="text-center transparentbg">
+<section class="pt-3 pt-3 mx-auto container-fluid" id="About">
+	<div class="text-center">
 		<div class="row">
-			<div class="col-12 pb-3 pt-3">
-				<h1> About </h1>
+			<div class="col-12 pt-3">
+				<h1>
+					<ul>
+						About
+					</ul>
+				</h1>
 			</div>
 		</div>
 
 		<div class="row">
-			<h2> Current </h2>
+			<h2 class="mb-1"> Current </h2>
 			<div>
 				<p> Student at the full stack program at CNM Ingenuity's
 
@@ -189,8 +193,8 @@
 				</p>
 			</div>
 			<div>
-				<h2> Past </h2>
-				<p class="mb-0">I earned a BBA in
+				<h2 class="mb-1"> Past </h2>
+				<p>I earned a BBA in
 					<a href="https://www.mgt.unm.edu/entrepreneurial/default.asp">
 						Entrepreneurship
 					</a>
@@ -208,8 +212,8 @@
 				</p>
 			</div>
 			<div>
-				<h2> Future </h2>
-				<p class="mb-1">
+				<h2 class="mb-1"> Future </h2>
+				<p>
 					I have been accepted to Anderson Masters of Science in Information Systems and Assurance
 					<a href="https://msisa.mgt.unm.edu">
 						MS-ISA
@@ -221,46 +225,48 @@
 			</div>
 		</div>
 	</div>
+</section>
 
-
-
-		<!--Portfolio-->
-<section class="aboutbg pt-3">
-		<div class="container-fluid mx-auto transparentbg">
-			<div class="row mt-3">
+	<!--Portfolio-->
+	<section id="Portfolio mt-5 mb-3">
+		<div class="container-fluid mx-auto">
+			<div class="row">
 				<div class="col-12">
-					<h1> Portfolio </h1>
+					<h1 class="mb-3"> Portfolio </h1>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-12 pt-3 pb-3">
-					<h2> Resume & Business Plans </h2>
+				<div class="col-12">
+					<h2 class="mb-3"> Resume & Business Plans </h2>
 				</div>
 			</div>
+
 			<div class="row d-flex justify-content-center pb-5">
 
 				<div class="col-1"></div>
-				<div class="col-2">
+				<div class="col-lg-2 col-md-6">
 					<a href="https://1drv.ms/w/s!AghUbBZ_2Obdi-4AV4nRvow5klnUoQ?e=YjTGJd">
-						<img class="d-block img-fluid" src="images/1to1resume.png">
+						<img class="d-block img-fluid" src="images/1to1resume.png" alt="resume">
 					</a>
 				</div>
-				<div class="col-2">
+				<div class="col-lg-2 col-md-6">
 					<a href="https://1drv.ms/w/s!AghUbBZ_2Obdi-16e6bm6pW5ZEUXPA?e=FNvW7T">
-						<img class="d-block img-fluid" src="images/1to1nmJazz.png">
+						<img class="d-block img-fluid" src="images/1to1nmJazz.png" alt="jazz plan">
 					</a>
 				</div>
-				<div class="col-2">
-					<a href="https://1drv.ms/w/s!AghUbBZ_2Obdi-19_cylxi-VCWdJyw?e=wvXJA5"></a>
-					<img class="d-block img-fluid" src="images/1to1steakhouse.png">
+				<div class="col-lg-2 col-md-6">
+					<a href="https://1drv.ms/w/s!AghUbBZ_2Obdi-19_cylxi-VCWdJyw?e=wvXJA5">
+					<img class="d-block img-fluid" src="images/1to1steakhouse.png" alt="steakhouse plan">
+					</a>
 				</div>
-				<div class="col-2">
-					<a href="https://1drv.ms/w/s!AghUbBZ_2Obdi-14PSKRD5R8whNjbg?e=fnQHfk"></a>
-					<img class="d-block img-fluid" src="images/1to1sunport.png">
+				<div class="col-lg-2 col-md-6">
+					<a href="https://1drv.ms/w/s!AghUbBZ_2Obdi-14PSKRD5R8whNjbg?e=3msCfT">
+					<img class="d-block img-fluid" src="images/1to1sunport.png" alt="sunport plan">
+					</a>
 				</div>
-				<div class="col-2">
+				<div class="col-lg-2 col-md-6">
 					<a href="https://1drv.ms/w/s!AghUbBZ_2Obdi-17wU5SafEjOgs70A?e=d2eh1y">
-						<img class="d-block img-fluid" src="images/1to1vitality.png">
+						<img class="d-block img-fluid" src="images/1to1vitality.png" alt="vitality plan">
 					</a>
 				</div>
 				<div class="col-1"></div>
@@ -268,8 +274,8 @@
 			</div>
 		</div>
 
-	<!-- logos -->
-		<div class="container-fluid transparentbg">
+		<!-- logos -->
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-12 pb-3">
 					<h2> Institutions </h2>
@@ -277,19 +283,19 @@
 			</div>
 			<div class="row d-flex justify-content-center">
 				<div class="col-2"></div>
-				<div class="col-2">
+				<div class="col-lg-2 col-md-8">
 					<a href="https://deepdivecoding.com/">
 						<img class="d-block img-fluid" src="images/UNMAnderson-200x119.jpg" alt="UNM logo">
 					</a>
 				</div>
 				<div class="col-1"></div>
-				<div class="col-2">
+				<div class="col-lg-2 col-md-8">
 					<a href="https://www.mgt.unm.edu/entrepreneurial/default.asp">
 						<img class="d-block img-fluid" src="images/deepdiveLogo.png" alt="deepdivelogo">
 					</a>
 				</div>
 				<div class="col-1"></div>
-				<div class="col-2">
+				<div class="col-lg-2 col-md-8">
 					<a href="https://sbi.mgt.unm.edu/">
 						<img class="d-block img-fluid" src="images/sbiLogo.jpg" alt="sbi logo">
 					</a>
@@ -298,26 +304,28 @@
 			</div>
 		</div>
 
-	<div class="container-fluid transparentbg">
+		<div class="container-fluid">
+			<div class="row">
+				<h2> Online Profiles </h2>
+			</div>
 
-		<div class="row d-flex justify-content-center">
-			<div class="col-2"></div>
-			<div class="col-2">
-				<a href="https://deepdivecoding.com/">
-					<img class="d-block img-fluid" src="images/UNMAnderson-200x119.jpg" alt="UNM logo">
-				</a>
+			<div class="row d-flex justify-content-center pt-5 pb-5">
+				<div class="col-3"></div>
+				<div class="col-lg-2 col-md-8">
+					<a href="https://github.com/danielcoderhernandez">
+						<img class="d-block img-fluid" src="images/1to1githubLogo.png" alt="github logo">
+					</a>
+				</div>
+				<div class="col-2"></div>
+				<div class="col-lg-2 col-md-8">
+					<a href="https://www.linkedin.com/in/daniel-coder-hernandez">
+						<img class="d-block img-fluid" src="images/1to1blueLinkedin.png" alt="linkedin logo">
+					</a>
+				</div>
+				<div class="col-3"></div>
 			</div>
-			<div class="col-1"></div>
-			<div class="col-2">
-				<a href="https://www.mgt.unm.edu/entrepreneurial/default.asp">
-					<img class="d-block img-fluid" src="images/deepdiveLogo.png" alt="deepdivelogo">
-				</a>
-			</div>
-			<div class="col-1"></div>
-			<div class="col-2"></div>
+
 		</div>
-	</div>
-
 
 	</section>
 
@@ -325,71 +333,73 @@
 	<!--
 	Contact Form.
 	-->
-	<section>
-	<div class="container-fluid aboutbg">
-		<div class="row pt-5">
-			<div class="col-12">
-				<form class="form" id="form" action="../php/" method="post">
-					<div class="form-group">
-						<label for="name">Name <span class="text-danger">*</span></label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text"></span>
-								<i class="fa fa-user" aria-hidden="true"></i>
-							</div>
-							<input type="text" class="form-control" id="contactDemoName" name="name" placeholder="Name">
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="email">Email <span class="text-danger">*</span></label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text"></span>
-								<i class="fa fa-envelope" aria-hidden="true"></i>
-							</div>
-							<input type="email" class="form-control" id="contactDemoEmail" name="email" placeholder="Email">
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="subject">Subject</label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text"></span>
-								<i class="fa fa-pencil" aria-hidden="true"></i>
-							</div>
-							<input type="text" class="form-control" id="contactDemoSubject" name="subject"
-									 placeholder="Subject">
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="message">Message <span class="text-danger">*</span></label>
-						<div class="input-group">
-							<div class="input-group-prepend">
-								<span class="input-group-text"></span>
-								<i class="fa fa-comment" aria-hidden="true"></i>
-							</div>
-							<textarea class="form-control" rows="5" id="contactDemoMessage" name="message"
-										 placeholder="(2000 characters max)"></textarea>
-						</div>
-					</div>
+	<section class="pt-5" id="Contact">
+		<div class="container-fluid">
+			<h1> Contact </h1>
+			<div class="row pt-2">
 
-					<!-- reCAPTCHA -->
-					<div class="g-recaptcha" data-sitekey="6LerKsIUAAAAABhYOrCPFviJlEas5Q_fmhUrmiXh"></div>
+				<div class="col-12">
+					<form class="form" id="form" action="../php/" method="post">
+						<div class="form-group">
+<!--							<label for="name">Name <span class="text-danger">*</span></label>-->
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"></span>
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<input type="text" class="form-control" id="contactDemoName" name="name" placeholder="Name">
+							</div>
+						</div>
+						<div class="form-group">
+<!--							<label for="email">Email <span class="text-danger">*</span></label>-->
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"></span>
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+								</div>
+								<input type="email" class="form-control" id="contactDemoEmail" name="email" placeholder="Email">
+							</div>
+						</div>
+						<div class="form-group">
+<!--							<label for="subject">Subject</label>-->
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"></span>
+									<i class="fa fa-pencil" aria-hidden="true"></i>
+								</div>
+								<input type="text" class="form-control" id="contactDemoSubject" name="subject"
+										 placeholder="Subject">
+							</div>
+						</div>
+						<div class="form-group">
+<!--							<label for="message">Message <span class="text-danger">*</span></label>-->
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"></span>
+									<i class="fa fa-comment" aria-hidden="true"></i>
+								</div>
+								<textarea class="form-control" rows="5" id="contactDemoMessage" name="message"
+											 placeholder="(2000 characters max)"></textarea>
+							</div>
+						</div>
 
-					<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-					<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-				</form>
-			</div>
+						<!-- reCAPTCHA -->
+						<div class="g-recaptcha" data-sitekey="6LerKsIUAAAAABhYOrCPFviJlEas5Q_fmhUrmiXh"></div>
 
-			<!--empty area for form error/success output-->
-			<div class="row">
-				<div class="col-xs-12">
-					<div id="output-area"></div>
+						<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+						<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+					</form>
+				</div>
+
+				<!--empty area for form error/success output-->
+				<div class="row">
+					<div class="col-xs-12">
+						<div id="output-area"></div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
+</section>
 </section>
 </body>
 
