@@ -91,6 +91,18 @@ h3:hover {
 	color: yellow;
 }
 
+h4 {
+	text-align: left;
+	font-family: cursive;
+	padding-bottom: 5px;
+	text-align-all: center;
+	color: black;
+	font-size: 32px;
+	font-stretch: expanded;
+	font-weight: bold;
+	text-decoration-width: auto;
+}
+
 p {
 	padding-left: 20px;
 	padding-right: 20px;
